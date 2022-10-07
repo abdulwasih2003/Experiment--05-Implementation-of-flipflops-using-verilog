@@ -1,12 +1,12 @@
 # Experiment--05-Implementation-of-flipflops-using-verilog
-## AIM: 
+## Aim: 
 To implement all the flipflops using verilog and validating their functionality using their functional tables
 
-## EQUIPMENT'S REQUIRED:
+## Equipment's Required:
 HARDWARE REQUIRED:  PC, Cyclone II , USB flasher
 SOFTWARE REQUIRED:   Quartus prime
 
-## THEORY:
+## Theory:
 
 ### SR Flip-Flop
 
@@ -109,7 +109,7 @@ From the above characteristic table, we can directly write the next state equati
 Q(t+1)=T′Q(t)+TQ(t)′
 ⇒Q(t+1)=T⊕Q(t)
 
-## PROCEDURE:
+## Procedure:
 
 1. Open Quartus II and select new project and choose the file location.
 2. Module Declaration. Module should have the file name.
@@ -119,7 +119,7 @@ Q(t+1)=T′Q(t)+TQ(t)′
 6. Run the program and choose RTL viewer to get RTL realization.
 
 
-## PROGRAM 
+## Programs:
 ~~~
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
 Developed by: H.Syed Abdul Wasih
@@ -175,39 +175,35 @@ nand (Qbar,B,Q);
 endmodule
 ~~~
 ## Outputs:
-
 ### RTL LOGIC FOR FLIPFLOPS:
 #### i) SR FLIP FLOP:
-
-![output](./SR.png)
-
+![SR](https://user-images.githubusercontent.com/91781810/194602449-0629b0ab-776a-4236-aaca-5b47a3a89eb0.png)
 #### ii) D FLIP FLOP:
-![output](./DF.png)
+![DF](https://user-images.githubusercontent.com/91781810/194602492-9dafe012-57a2-4770-8027-5e87430481a3.png)
 
 #### iii) JK FLIP FLOP:
-![output](./JK.png)
+![JK](https://user-images.githubusercontent.com/91781810/194602920-7be5cbe1-96f8-43fe-a606-46fa7c953af0.png)
 
 #### iv) T FLIP FLOP:
-![output](./TF.png)
-
+![TF](https://user-images.githubusercontent.com/91781810/194602992-49ab4a82-7653-4a37-a1e2-1b42a6ef9bc0.png)
 
 ### TIMING DIGRAMS FOR FLIP FLOPS:
 #### i) SR FLIP FLOP:
 
-![output](./RSFT.jpeg)
+![RSFT](https://user-images.githubusercontent.com/91781810/194603256-db7ec72c-40b9-4af5-a478-188f3d264657.jpeg)
 
 
 #### ii) D FLIP FLOP:
+![DFT](https://user-images.githubusercontent.com/91781810/194603260-9aaab0d0-1438-4b9a-a3de-4ead33eabffd.jpeg)
 
-![output](./DFT.jpeg)
 
 #### iii) JK FLIP FLOP:
 
-![output](./JKFT.jpeg)
+![JKFT](https://user-images.githubusercontent.com/91781810/194603259-704c7ba6-c08b-47fc-bd3d-7b7e97464df7.jpeg)
 
 #### iv) T FLIP FLOP:
+![TFT](https://user-images.githubusercontent.com/91781810/194603257-f30e0fa5-244e-42c8-9379-c67477d4b7db.jpeg)
 
-![output](./TFT.jpeg)
 
 ## Result:
 All the flipflops are implementde using verilog and their functionality has been validated using their functional tables.
